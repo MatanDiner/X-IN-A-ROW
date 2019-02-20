@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title></title>
+
+    <link rel="StyleSheet" type="text/css" href="StyleSheet.css" />
+</head>
+
+<body>
+    <div id="title">
+        <img id="yellowpic" src="imeg/תמונה2.png" />
+        <h1>X IN A ROW</h1>
+        <img id="redpic" src="imeg/עיגול אדום1.png" />
+    </div>
+
+    <div>
+        <h2>Choose the board size:</h2>
+        <select id="select1">
+
+            <option>5</option>
+            <option>6</option>
+            <option selected="selected" value="backto7">7</option>
+            <option>8</option>
+        </select>
+    </div>
+    <div id="div2">
+        <h2>Choose the sequence of coins for winning:</h2>
+        <select id="select2">
+
+            <option>3</option>
+            <option selected="selected" value="backto4">4</option>
+            <option>5</option>
+            <option>6</option>
+
+        </select>
+    </div>
+
+
+    <div id="but_stop">
+        <img id="stop" src="imeg/stopbutton.png" onclick="newgame()" />
+
+    </div>
+    <div id="but_start">
+        <img id="start" src="imeg/start.png" onclick="createtable()" />
+    </div>
+    <div id="whoturn"></div>
+    <div id="myturn"></div>
+
+    <div id="declere"></div>
+    <div id="disk"></div>
+    <div id="ph"></div>
+
+
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
