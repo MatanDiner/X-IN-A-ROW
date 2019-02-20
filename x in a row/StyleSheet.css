@@ -29,7 +29,7 @@ table{
 }
 h2{
     font-size:35px;
-    color:#ff00dc;
+    color:white;
 }
 
 #div2{
@@ -135,7 +135,10 @@ td {
     height: 100px;
     width: 100px;
     z-index: 0;
-}#ph{
+}
+
+
+#ph{
    
     background-color:white;
     margin: 0px auto;
